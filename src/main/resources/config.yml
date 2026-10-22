@@ -1,0 +1,13 @@
+# 禁止玩家丢弃物品的世界列表(填写世界名称)
+worlds:
+  - world        # 主世界
+  - world_nether # 地狱
+  - world_the_end# 末地
+  - 自定义世界名  # 替换成你的世界
+
+# 是否启用bypass权限功能
+bypass-enabled: true
+# 丢弃物品时是否发送提示消息
+send-message: true
+# 提示消息内容(支持颜色代码 §)
+message: "§c这个世界无法丢弃物品!"

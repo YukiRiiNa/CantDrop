@@ -1,0 +1,19 @@
+name: CantDrop
+version: '1.0.0'
+main: ltd.teaparty.rina.cantDrop.CantDrop
+api-version: '1.21'
+authors: [ Rina ]
+description: cancel drop event on world you want
+commands:
+  cantdrop:
+    description: 重载禁止丢弃配置
+    usage: /cantdrop reload
+
+# 权限节点注册
+permissions:
+  cantdrop.reload:
+    description: 重载插件配置的权限
+    default: op
+  cantdrop.bypass:
+    description: 绕过禁止丢弃限制的权限
+    default: op
